@@ -1,0 +1,6 @@
+{
+  "name": "Liberty Cafe",
+  "description": "Luxury Black & Gold restaurant storefront, online ordering (Delivery, Takeaway, Dine-in), customer portal, and protected admin dashboard prepared for Supabase and Cloudflare.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

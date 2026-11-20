@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#151518"/>
+  <rect x="18" y="18" width="564" height="414" stroke="#343238" stroke-width="1"/>
+  <rect x="260" y="165" width="80" height="80" transform="rotate(45 300 205)" stroke="#D4AF37" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="300" y="310" text-anchor="middle" fill="#AAA69C" font-family="Georgia, serif" font-size="18" letter-spacing="3">COLLECTION</text>
+</svg>
