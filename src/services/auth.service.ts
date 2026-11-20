@@ -313,6 +313,9 @@ export async function deleteAddress(addressId: string): Promise<void> {
 }
 
 export function enterPreviewRoleSession(role: UserRole): AuthSessionState {
+  if (import.meta.env.PROD && role === 'admin') {
+    throw new Error('Preview Admin access is disabled on the public website.');
+  }
   if (env.isSupabaseConfigured) {
     throw new Error('Preview sessions are disabled when live Supabase is connected.');
   }
